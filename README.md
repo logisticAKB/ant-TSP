@@ -11,7 +11,7 @@ This program finds the shortest possible route that visits every city exactly on
     - For each ant:
         - Build the routes and calculate weight using the following formula:
         
-        ![equation](https://latex.codecogs.com/gif.latex?P_%7Bij%7D%3D%5Cfrac%7B%5Ctau_%7Bij%7D%5E%7B%5Calpha%20%7D%28%5Cfrac%7B1%7D%7Bd_%7Bij%7D%7D%29%5E%7B%5Cbeta%20%7D%7D%7B%5Csum_%7Bj%5Cin%20allowed%20nodes%7D%5Ctau_%7Bij%7D%5E%7B%5Calpha%20%7D%28%5Cfrac%7B1%7D%7Bd_%7Bij%7D%7D%29%5E%7B%5Cbeta%20%7D%7D)
+            ![equation](https://latex.codecogs.com/gif.latex?P_%7Bij%7D%3D%5Cfrac%7B%5Ctau_%7Bij%7D%5E%7B%5Calpha%20%7D%28%5Cfrac%7B1%7D%7Bd_%7Bij%7D%7D%29%5E%7B%5Cbeta%20%7D%7D%7B%5Csum_%7Bj%5Cin%20allowed%20nodes%7D%5Ctau_%7Bij%7D%5E%7B%5Calpha%20%7D%28%5Cfrac%7B1%7D%7Bd_%7Bij%7D%7D%29%5E%7B%5Cbeta%20%7D%7D)
     - Check all new routes for new shortest one.
     - For each edge:
         - Update the pheromone on the edge using the following formula:
