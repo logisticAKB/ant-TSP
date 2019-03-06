@@ -13,11 +13,11 @@ This program finds the shortest possible route that visits every city exactly on
         
             ![equation](https://latex.codecogs.com/gif.latex?P_%7Bij%7D%3D%5Cfrac%7B%5Ctau_%7Bij%7D%5E%7B%5Calpha%20%7D%28%5Cfrac%7B1%7D%7Bd_%7Bij%7D%7D%29%5E%7B%5Cbeta%20%7D%7D%7B%5Csum_%7Bj%5Cin%20allowed%20nodes%7D%5Ctau_%7Bij%7D%5E%7B%5Calpha%20%7D%28%5Cfrac%7B1%7D%7Bd_%7Bij%7D%7D%29%5E%7B%5Cbeta%20%7D%7D), where
             
-            ![equation](https://latex.codecogs.com/gif.latex?%5Ctau%20_%7Bij%7D%28t%29) - pheromone level.
+             ![equation](https://latex.codecogs.com/gif.latex?%5Ctau%20_%7Bij%7D%28t%29) - pheromone level.
             
-            ![equation](https://latex.codecogs.com/gif.latex?d%20_%7Bij%7D) - distance between i and j.
-            
-            ![equation](https://latex.codecogs.com/gif.latex?%5Calpha%20%2C%5Cbeta) - constants.
+             ![equation](https://latex.codecogs.com/gif.latex?d%20_%7Bij%7D) - distance between i and j.
+             
+             ![equation](https://latex.codecogs.com/gif.latex?%5Calpha%20%2C%5Cbeta) - constants.
             
     - Check all new routes for new shortest one.
     - For each edge:
@@ -26,13 +26,13 @@ This program finds the shortest possible route that visits every city exactly on
         
             ![equation](https://latex.codecogs.com/gif.latex?%5Ctau%20_%7Bij%7D%28t&plus;1%29%3D%281-%5Crho%20%29%5Ctau%20_%7Bij%7D%28t%29&plus;%5Csum_%7Bk%5Cin%20colonyThatUsedEdge%28i%2Cj%29%7D%5Cfrac%7BQ%7D%7BL_%7Bk%7D%7D), where
             
-            ![equation](https://latex.codecogs.com/gif.latex?%5Crho) - the evaporation rate of the pheromone.
+             ![equation](https://latex.codecogs.com/gif.latex?%5Crho) - the evaporation rate of the pheromone.
             
-            ![equation](https://latex.codecogs.com/gif.latex?L_%7Bk%7D) - price of the current solutions for the k-th ant.
+             ![equation](https://latex.codecogs.com/gif.latex?L_%7Bk%7D) - price of the current solutions for the k-th ant.
             
-            ![equation](https://latex.codecogs.com/gif.latex?Q) - value of the optimal solution price order.
+             ![equation](https://latex.codecogs.com/gif.latex?Q) - value of the optimal solution price order.
             
-            ![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BQ%7D%7BL_%7Bk%7D%28t%29%7D) - pheromone deposited by k-th ant using edge (i, j).
+             ![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BQ%7D%7BL_%7Bk%7D%28t%29%7D) - pheromone deposited by k-th ant using edge (i, j).
             
 - Print weight of the shortest rote.  
 
