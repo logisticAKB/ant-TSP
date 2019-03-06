@@ -23,8 +23,9 @@ This program finds the shortest possible route that visits every city exactly on
 # Instruction
 - Run `tsp.py`.
 - Enter matrix of distances, diagonal is assumed to be 0. 
+
 For example: 
 
 
-![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%2030%20%26%201%20%26%20%5C%5C%204%20%26%200%20%26%2047%20%26%207%20%26%20%5C%5C%2031%20%26%2033%20%26%200%20%26%2036%20%26%20%5C%5C%2020%20%26%2013%20%26%2016%20%26%2028%20%26%20%5C%5C%209%20%26%2036%20%26%2022%20%26%200%20%26%20%5Cend%7Bpmatrix%7D)
+   ![equation](https://latex.codecogs.com/gif.latex?               %5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%2030%20%26%201%20%26%20%5C%5C%204%20%26%200%20%26%2047%20%26%207%20%26%20%5C%5C%2031%20%26%2033%20%26%200%20%26%2036%20%26%20%5C%5C%2020%20%26%2013%20%26%2016%20%26%2028%20%26%20%5C%5C%209%20%26%2036%20%26%2022%20%26%200%20%26%20%5Cend%7Bpmatrix%7D)
 - Enjoy your result!
