@@ -18,4 +18,10 @@ This program finds the shortest possible route that visits every city exactly on
         - Update the pheromone on the edge using the following formula:
         
             ![equation](https://latex.codecogs.com/gif.latex?%5Ctau%20_%7Bij%7D%28t&plus;1%29%3D%281-%5Crho%20%29%5Ctau%20_%7Bij%7D%28t%29&plus;%5Csum_%7Bk%5Cin%20colonyThatUsedEdge%28i%2Cj%29%7D%5Cfrac%7BQ%7D%7BL_%7Bk%7D%7D)
-- Print weight of the shortest rote.         
+- Print weight of the shortest rote.  
+
+# Instruction
+- Run `tsp.py`.
+- Enter matrix of distances, diagonal is assumed to be 0. 
+For example: ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Bpmatrix%7D%200%20%26%202%20%26%2030%20%26%201%20%26%20%5C%5C%204%20%26%200%20%26%2047%20%26%207%20%26%20%5C%5C%2031%20%26%2033%20%26%200%20%26%2036%20%26%20%5C%5C%2020%20%26%2013%20%26%2016%20%26%2028%20%26%20%5C%5C%209%20%26%2036%20%26%2022%20%26%200%20%26%20%5Cend%7Bpmatrix%7D)
+- Enjoy your result!
