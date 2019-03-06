@@ -21,7 +21,12 @@ This program finds the shortest possible route that visits every city exactly on
     
         - Update the pheromone on the edge using the following formula:
         
-            ![equation](https://latex.codecogs.com/gif.latex?%5Ctau%20_%7Bij%7D%28t&plus;1%29%3D%281-%5Crho%20%29%5Ctau%20_%7Bij%7D%28t%29&plus;%5Csum_%7Bk%5Cin%20colonyThatUsedEdge%28i%2Cj%29%7D%5Cfrac%7BQ%7D%7BL_%7Bk%7D%7D)
+            ![equation](https://latex.codecogs.com/gif.latex?%5Ctau%20_%7Bij%7D%28t&plus;1%29%3D%281-%5Crho%20%29%5Ctau%20_%7Bij%7D%28t%29&plus;%5Csum_%7Bk%5Cin%20colonyThatUsedEdge%28i%2Cj%29%7D%5Cfrac%7BQ%7D%7BL_%7Bk%7D%7D), where
+            
+            ![equation](https://latex.codecogs.com/gif.latex?%5Crho) - the evaporation rate of the pheromone.
+            ![equation](https://latex.codecogs.com/gif.latex?L_%7Bk%7D) - price of the current solutions for the k-th ant.
+            ![equation](https://latex.codecogs.com/gif.latex?Q) - value of the optimal solution price order.
+            ![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7BQ%7D%7BL_%7Bk%7D%28t%29%7D) - pheromone deposited by k-th ant using edge (i, j).
 - Print weight of the shortest rote.  
 
 # Instruction
